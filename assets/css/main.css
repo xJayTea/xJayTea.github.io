@@ -37,5 +37,8 @@ body {
     top: 0px;
     padding: 10px;
     overflow: auto; }
+    body #imageLightbox img {
+      width: 100%;
+      height: auto; }
 
 /*# sourceMappingURL=main.css.map */
