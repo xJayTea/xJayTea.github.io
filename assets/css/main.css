@@ -1,0 +1,12 @@
+body {
+  margin: 0px; }
+
+#appContent img {
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 10px;
+  width: 25%;
+  height: auto;
+  vertical-align: middle; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,1 @@
+cat js/imagesList.js js/image_renderer.js > js/build/main.js
