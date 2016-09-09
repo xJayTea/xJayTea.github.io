@@ -11,9 +11,8 @@ body {
     height: auto;
     vertical-align: middle;
 
-    :hover {
+    &:hover {
       opacity: 0.5;
-      border: 1px solid red;
     }
   }
 
