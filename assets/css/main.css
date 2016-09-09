@@ -1,0 +1,41 @@
+body {
+  margin: 0px; }
+  body .hide {
+    display: none; }
+  body #appContent {
+    width: 100%;
+    height: 100%;
+    overflow: auto; }
+    body #appContent img {
+      box-sizing: border-box;
+      cursor: pointer;
+      padding: 10px;
+      width: 25%;
+      height: auto;
+      vertical-align: middle; }
+      body #appContent img:hover {
+        opacity: 0.5; }
+  body #appOverlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 1000;
+    background: rgba(52, 73, 94, 0.85);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.2s; }
+    body #appOverlay.show {
+      z-index: 1000;
+      opacity: 1; }
+  body #imageLightbox {
+    z-index: 2000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    top: 0px;
+    padding: 10px;
+    overflow: auto; }
+
+/*# sourceMappingURL=main.css.map */
