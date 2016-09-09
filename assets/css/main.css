@@ -8,5 +8,7 @@ body {
   width: 25%;
   height: auto;
   vertical-align: middle; }
+  #appContent img :hover {
+    opacity: 0.5; }
 
 /*# sourceMappingURL=main.css.map */
