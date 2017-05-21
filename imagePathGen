@@ -1,9 +1,0 @@
-printf "var imagesList = [" > js/imagesList.js
-
-for file in "./images"/*
-do
-  printf "\"${file/\.\//}\", " >> js/imagesList.js
-done
-
-v=`cat js/imagesList.js`
-printf "${v%??}];" > js/imagesList.js
