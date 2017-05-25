@@ -118,7 +118,7 @@ var getWebpackConfig = function(serverConfig, progress_bar_message){
           ],
           loader: 'babel-loader',
           query: {
-            presets: ['es2015', 'react']
+            presets: ['es2015']
           }
         }
       ]
@@ -170,10 +170,8 @@ gulp.task('webpack', function(cb){
 
     var devServer = new webpackDevServer(compiler, {
       hot: true,
-      proxy: {
-        '**' : {
-          target: serverConfig.origin
-        }
+      historyApiFallback: { // Always serve up index.html for all urls.
+        index: 'index.html'
       },
       stats: {
         hash: false,
